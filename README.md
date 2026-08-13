@@ -1,8 +1,7 @@
 # Exploration Strategies in Tabular Q-Learning
 
-> **Undergraduate mathematics project — 2023 edition**
 
-This repository compares constant epsilon-greedy, decaying epsilon-greedy, softmax, and upper-confidence-bound (UCB) exploration for tabular Q-learning in a stochastic grid-world. Exact value iteration computes $Q^*$; ten independent seeds measure reward, success, and action-value error. The implementation avoids RL frameworks so every mathematical step remains visible.
+This repository compares constant epsilon-greedy, decaying epsilon-greedy, softmax, and upper-confidence-bound (UCB) exploration for tabular Q-learning in a stochastic grid-world. Exact value iteration computes $Q^*$; ten independent seeds measure reward, success, and action-value error. 
 
 ## Research question
 
@@ -56,20 +55,9 @@ rl_exploration/       environment, planning, policies, and Q-learning
 tests/                correctness and reproducibility tests
 figures/              generated learning curves
 results/              raw and summary CSV data
-report.docx           Microsoft Word technical report
+report.pdf           Pdf technical report
 report.md             GitHub-rendering technical report
 run_experiments.py    complete experiment runner
 ```
 
-## 2023 compatibility
 
-The project uses Python 3.10, NumPy 1.23.5, Matplotlib 3.6.3, and python-docx 0.8.11. All methods and references were available by the end of 2023. Gymnasium is not imported. See [HISTORICAL_COMPATIBILITY.md](HISTORICAL_COMPATIBILITY.md).
-
-## Before publishing
-
-1. Replace the author, institution, supervisor, and repository placeholders.
-2. Rerun the experiment and retain the generated CSV files.
-3. Be prepared to explain the Bellman contraction, Q-learning update, results, and limitations.
-4. Create a GitHub repository and a `v1.0.0` release; optionally archive that release with Zenodo.
-
-The source code is licensed under MIT. Update `CITATION.cff` before publication.
