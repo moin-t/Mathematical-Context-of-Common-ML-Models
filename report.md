@@ -58,9 +58,8 @@ $$
 The optimal action-value function satisfies
 
 $$
-Q^{*}(s,a)=\sum_{s'}P(s'\mid s,a)\left[R(s,a,s')+\gamma\max_bQ^{*}(s',b)\right].
+Q^{}(s,a)=\sum_{s'}P(s'\mid s,a)\left[R(s,a,s')+\gamma\max_b Q^{}(s',b)\right].
 $$
-
 For the Bellman operator $T$,
 
 $$
