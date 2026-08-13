@@ -12,8 +12,7 @@ This repository compares constant epsilon-greedy, decaying epsilon-greedy, softm
 The optimal action-value function satisfies
 
 $$
-Q^{*}(s,a)=\sum_{s'}P(s'\mid s,a)
-\left[R(s,a,s')+\gamma\max_b Q^{*}(s',b)\right].
+Q^{}(s,a)=\sum_{s'}P(s'\mid s,a)\left[R(s,a,s')+\gamma\max_b Q^{}(s',b)\right].
 $$
 
 Q-learning uses the sampled update
