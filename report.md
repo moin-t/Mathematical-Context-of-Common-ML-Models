@@ -2,9 +2,13 @@
 
 
 **Author:** Moin Tariq, Muhammad Irfan Haider Khan 
+
 **Programme:** Bachelor of Science in Mathematics  
+
 **Department:** Department of Mathematics and Statistics
+
 **Institution:** International Islamic University, Islamabad  
+
 **Supervisor:** Dr. Nayyar Mehmood
 
 
@@ -54,7 +58,7 @@ $$
 The optimal action-value function satisfies
 
 $$
-Q^*(s,a)=\sum_{s'}P(s'\mid s,a)\left[R(s,a,s')+\gamma\max_bQ^*(s',b)\right].
+Q^{*}(s,a)=\sum_{s'}P(s'\mid s,a)\left[R(s,a,s')+\gamma\max_bQ^{*}(s',b)\right].
 $$
 
 For the Bellman operator $T$,
@@ -63,7 +67,7 @@ $$
 \|TQ-TU\|_\infty\leq\gamma\|Q-U\|_\infty.
 $$
 
-Thus $T$ is a contraction for $\gamma<1$. The space of finite Q-tables is complete, so the Banach fixed-point theorem gives a unique fixed point $Q^*$. Repeated Bellman updates converge to it. The code uses this result to compute an exact numerical benchmark.
+Thus $T$ is a contraction for $\gamma<1$. The space of finite Q-tables is complete, so the Banach fixed-point theorem gives a unique fixed point $Q^{*}$. Repeated Bellman updates converge to it. The code uses this result to compute an exact numerical benchmark.
 
 ### 2.3 Q-learning
 
@@ -145,7 +149,7 @@ The requested direction occurs with probability $0.90$ and each other direction 
 The greedy learned policy is evaluated using mean undiscounted return, probability of reaching the goal, and maximum action-value error
 
 $$
-E_Q=\max_{s\notin\mathcal{T},a}|Q(s,a)-Q^*(s,a)|.
+E_Q=\max_{s\notin\mathcal{T},a}|Q(s,a)-Q^{*}(s,a)|.
 $$
 
 Charts show the across-seed mean and approximate 95% confidence interval
