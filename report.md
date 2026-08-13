@@ -1,14 +1,12 @@
 # Exploration Strategies in Tabular Q-Learning
 
-**Undergraduate Technical Report — Academic Year 2023**
 
-**Author:** Your Name  
+**Author:** Moin Tariq, Muhammad Irfan Haider Khan 
 **Programme:** Bachelor of Science in Mathematics  
-**Department:** Your Department  
-**Institution:** Your University  
-**Supervisor:** Supervisor Name
+**Department:** Department of Mathematics and Statistics
+**Institution:** International Islamic University, Islamabad  
+**Supervisor:** Dr. Nayyar Mehmood
 
-> Replace the identity fields before submission. This edition uses only methods, sources, and software available by the end of 2023.
 
 ## Abstract
 
@@ -193,7 +191,7 @@ The project connects exact finite-MDP mathematics with sample-based learning. Be
 
 ## Reproducibility
 
-The project uses Python 3.10, NumPy 1.23.5, Matplotlib 3.6.3, and python-docx 0.8.11, all available by 2023.
+The project uses Python 3.10, NumPy 1.23.5, Matplotlib 3.6.3, and python-docx 0.8.11
 
 ```bash
 python3.10 -m venv .venv
@@ -217,7 +215,7 @@ python -m unittest discover -s tests -v
 rl_exploration/       environment, planning, policies, and Q-learning
 tests/                unit tests
 run_experiments.py    multi-seed experiment
-report.docx           Microsoft Word report
+report.pdf            Pdf report
 report.md             GitHub-rendering report
 results/              CSV outputs
 figures/              generated charts
