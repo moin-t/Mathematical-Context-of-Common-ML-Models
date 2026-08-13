@@ -36,7 +36,7 @@ See [report.md](report.md) for the complete derivation, experiment, results, lim
 
 ## Install and reproduce
 
-The pinned stack was available by 2023. Use Python 3.10.
+Use Python 3.10.
 
 ```bash
 git clone https://github.com/your-username/rl-exploration-project.git
